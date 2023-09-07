@@ -991,6 +991,22 @@ footer .container>div:first-of-type {
   .logo img{
     height: 35px;
   }
+  #home-header .container>div:first-of-type{
+    z-index: 1;
+  }
+  #home-header .container>div:last-of-type{
+    position: relative;
+  }
+  #home-header h1 {
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+  #home-header p{
+    font-size: 23px;
+  }
+  #home-header img{
+    height: auto;
+  }
   #home-contatti-box {
     padding-left: 15px;
     padding-right: 15px;
@@ -1021,5 +1037,17 @@ body#body-home .fascia-immagine-testo .fascia-immagine-testo-img::before{
 body#body-servizi .fascia-immagine-testo.invertito .fascia-immagine-testo-img::before,
 .fascia-immagine-testo .fascia-immagine-testo-img::before{
   top: -45px;
+}
+#home-galleria .swiper-button-prev{
+  left: 25px;
+}
+#home-galleria .swiper-button-next{
+  right: 25px;
+}
+.fascia-immagine-testo .fascia-immagine-testo-img::before{
+  max-width: 100%;
+}
+.fascia-immagine-testo+.fascia-immagine-testo.invertito{
+  padding-top:0;
 }
 }

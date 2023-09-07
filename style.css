@@ -800,7 +800,7 @@ footer .container>div:first-of-type ul li{
   .nav-links{
     padding: 0;
   }
-  .nav-links {
+  .nav-links li{
     margin-left: 0px;
   }
   #mobile-menu{
@@ -835,6 +835,7 @@ footer .container>div:first-of-type ul li{
     bottom: 0;
     opacity: 0.1;
     height: 450px;
+    max-width: 90%;
   }
 
   #home-header h1{
@@ -897,7 +898,7 @@ footer .container>div:first-of-type ul li{
 
 @media (max-width: 768px){
   #standard-header{
-    margin-bottom: 0px;
+    margin-bottom: 0px !important
   }
   .fascia-immagine-testo .container,
   #home-punti-forza .container {
@@ -1008,5 +1009,17 @@ width: 100%;
 margin-left: 0px;
 margin-top: 25px;
 }
-  
+#home-recensione>img{
+  left: unset;
+    right: 10px;
+width: 75%;
+max-width: 90%;
+}
+body#body-home .fascia-immagine-testo .fascia-immagine-testo-img::before{
+  display: none;
+}
+body#body-servizi .fascia-immagine-testo.invertito .fascia-immagine-testo-img::before,
+.fascia-immagine-testo .fascia-immagine-testo-img::before{
+  top: -45px;
+}
 }

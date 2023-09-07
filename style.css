@@ -162,9 +162,14 @@ body {
 /* Utilizza il font personalizzato per la voce "Contattami ora" */
 .nav-links li:nth-child(4) a {
     color: #F15E42;
-    font-weight: 900;
+    border-radius: 30px;
+    border: 2px solid #F15E42;
+    padding: 8px 16px;
 }
-
+.nav-links li:nth-child(4) a:hover{
+  background-color: #F15E42;
+  color: #fff;
+}
 #mobile-menu,
 #hamburger-menu{
   display: none;
